@@ -61,26 +61,27 @@ pnpm run format - Format code with Prettier
 Project Structure
 Plain Text
 gov-monitoring-research-fixed/
-├── client/ # React frontend
+├── client/                    # React frontend
 │   ├── src/
-│   │   ├── pages/ # Page components
-│   │   ├── components/ # UI components
-│   │   ├── contexts/ # React contexts
-│   │   ├── hooks/ # Custom hooks
-│   │   ├── lib/ # Utility functions
-│   │   └── App.tsx  # Main app component
-│   ├── index.html  # HTML template
-│   └── public/  # Static assets
-├── server/  # Express server
-│   └── index.ts  # Server entry point
-├── shared/  # Shared utilities
-├── attached_assets/  # Local asset storage
-├── .env  # Environment variables (local)
-├── .env.example  # Environment variables template
-├── vite.config.ts   # Vite configuration
-├── tailwind.config.js  # Tailwind CSS configuration
-├── tsconfig.json   # TypeScript configuration
-└── package.json  # Project dependencies
+│   │   ├── pages/            # Page components
+│   │   ├── components/       # UI components
+│   │   ├── contexts/         # React contexts
+│   │   ├── hooks/            # Custom hooks
+│   │   ├── lib/              # Utility functions
+│   │   └── App.tsx           # Main app component
+│   ├── index.html            # HTML template
+│   └── public/               # Static assets
+├── server/                    # Express server
+│   └── index.ts              # Server entry point
+├── shared/                    # Shared utilities
+├── attached_assets/          # Local asset storage
+├── .env                       # Environment variables (local)
+├── .env.example              # Environment variables template
+├── vite.config.ts            # Vite configuration
+├── tailwind.config.js        # Tailwind CSS configuration
+├── tsconfig.json             # TypeScript configuration
+└── package.json              # Project dependencies
+
 
 Configuration
 Optional Environment Variables
